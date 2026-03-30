@@ -1,10 +1,8 @@
 ﻿using JwtTokenBaseAuthentication.DTO;
 using JwtTokenBaseAuthentication.Models;
 using JwtTokenBaseAuthentication.Services.IServices;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Org.BouncyCastle.Crypto.Generators;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
