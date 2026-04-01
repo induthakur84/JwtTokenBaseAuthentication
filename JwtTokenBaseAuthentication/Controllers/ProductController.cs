@@ -24,7 +24,7 @@ namespace JwtTokenBaseAuthentication.Controllers
         }
 
         [HttpGet("GetAll")]
-        [Authorize(Roles = "User")]
+        [Authorize(Roles = "Admin,User")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _productService.GetAll();

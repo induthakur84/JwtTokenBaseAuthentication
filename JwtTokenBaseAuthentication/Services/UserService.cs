@@ -10,8 +10,6 @@ using System.Text;
 namespace JwtTokenBaseAuthentication.Services
 {
     public class UserService : IUserService
-
-
     {
 
         // this is the database context to interact with db
